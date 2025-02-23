@@ -1,9 +1,0 @@
-/*Tania Ariadna Dominguez Palma
- * 06/nov/2021
- * Describe a un hospital que contiene Medico(s) 
- */
-public class Hospital {
-	private String nombre;
-	private String direccion;
-	
-}

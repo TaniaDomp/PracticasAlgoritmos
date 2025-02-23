@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Copy element &apos;ManejadorArreglos.java&apos; to &apos;PruebasArrYLis/src&apos;&#x0D;&#x0A;- Original project: &apos;ManejadoresArreglosYP&apos;&#x0D;&#x0A;- Destination element: &apos;PruebasArrYLis/src&apos;&#x0D;&#x0A;- Original element: &apos;ManejadorArreglos.java&apos;" description="Copy compilation unit" destination="=PruebasArrYLis/src" element1="/src&lt;{ManejadorArreglos.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1635373648725" units="1" version="1.0"/>
-</session>
