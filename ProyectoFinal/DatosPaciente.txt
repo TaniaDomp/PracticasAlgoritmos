@@ -1,0 +1,90 @@
+Esperanza
+Ramirez
+Perez
+anciano/infante 
+Hemorragia interna
+6
+Carlos
+Rodriguez
+Vazquez
+Con-confusion-mental
+Tumor cerebral
+45
+Juan
+Dominguez
+Juarez
+otro
+Crisis asmática
+28
+Guadalupe
+Juarez
+Juarez
+anciano/infante
+Infarto de miocardio
+88
+Hector
+Hernandez
+Torrez
+otro
+Hemorragia interna
+36
+Susana
+Palma
+Palmero
+Con-confusion-mental
+apendicitis
+45
+Laura
+Acosta
+Francis
+otro
+intoxicacion
+41
+Daniela
+Fernandez
+Olivares
+anciano/infante
+Intoxicacion
+7
+Juan
+Gallegos
+Alvaro
+Con-confusion-mental
+Quemaduras graves
+32
+Pedro
+Limon
+Limon
+Con-confusion-mental
+Agudización de la EPOC
+24
+Juana
+Garcia
+Pedron
+anciano/infante
+Quemaduras graves
+85
+Sara
+Gonzalez
+Navarro
+otro
+Crisis asmatica
+53
+Carlos
+Navarro
+Verduzco
+otro
+Intoxicacion
+45
+Erick
+Aranda
+Valdez
+otro
+Infarto de miocardio
+24
+Isabel
+Diaz
+Avalos
+anciano/infante
+Infarto de miocardio
+90

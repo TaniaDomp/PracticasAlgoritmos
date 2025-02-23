@@ -1,0 +1,60 @@
+/*Tania Ariadna Dominguez Palma
+ * 06/nov/2021
+ * Describe a un hospital que contiene Medico(s) 
+ */
+public class Hospital implements Comparable<Hospital>{
+	private String nombre;
+	private String direccion;
+	private Medico[] medicos;
+	private int numMedicos;
+	private final int MAX_MED = 50;
+	
+	Hospital (String nombre, String direccion){
+		medicos = new Medico[MAX_MED];
+		numMedicos = 0;
+		this.nombre = nombre;
+		this.direccion = direccion;
+	}
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public String getDireccion() {
+		return direccion;
+	}
+
+	public int getNumMedicos() {
+		return numMedicos;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public void setDireccion(String direccion) {
+		this.direccion = direccion;
+	}
+	
+	public String toString() {
+		StringBuilder cad = new StringBuilder();
+		
+		cad.append("Hospital Nombre: ");
+		cad.append(nombre);
+		cad.append("\n         Direccion: ");
+		cad.append(direccion);
+		cad.append("\n         Numero de medicos: ");
+		cad.append(numMedicos);
+		for (int i = 0; i < numMedicos; i++) {
+			cad.append("\n         Medico " + i + ": ");
+			cad.append(medicos[i]);
+		}
+		return cad.toString();
+	}
+	
+	public int compareTo(Hospital otro) {
+		return this.nombre.compareTo(otro.nombre);
+	}
+	
+	
+}

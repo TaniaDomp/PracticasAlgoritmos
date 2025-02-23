@@ -1,0 +1,26 @@
+/*Tania Ariadna Dominguez Palma
+ * 29/oct/2021
+ * Describe una persona vacunada
+ */
+public class Persona {
+	private String nombre;
+	private String curp;
+	private char genero;
+	private int ahoNac;
+	private String origen;
+	private String [] vacunas;
+	private int numVacunas;
+	private final int MAX_VAC = 10;
+	
+	public Persona(String curp) {
+		
+		
+		vacunas = new String[MAX_VAC];
+		numVacunas = 0;
+		this.curp = curp.toUpperCase();
+		origen = this.curp.substring(11, 13);
+		ahoNac = this.curp.substring(4, 6);
+		
+	}
+	
+}

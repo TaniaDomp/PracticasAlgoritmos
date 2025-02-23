@@ -1,0 +1,14 @@
+/*Tania Ariadna Dominguez Palma
+ * 13/sep/2021
+ * Prueba la clase calculadora
+ */
+public class NuevaMetodosEst {
+
+	public static void main(String[] args) {
+		
+		System.out.println("¿10 es impar?" + Calculadora.esImpar(10));
+		System.out.println("El orden de los numeros" + Calculadora.ordenaCreciente(7, 5));
+
+	}
+
+}

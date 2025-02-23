@@ -1,0 +1,20 @@
+/*Tania Ariadna Dominguez Palma
+ * 06/nov/2021
+ * Describe a un hospital que contiene Medico(s) 
+ */
+public class Hospital {
+	private String nombre;
+	private String direccion;
+	private Medico[] medicos;
+	private int numMedicos;
+	private final int MAX_MED = 50;
+	
+	Hospital (String nombre, String direccion){
+		medicos = new Medico[MAX_MED];
+		numMedicos = 0;
+		this.nombre = nombre;
+		this.direccion = direccion;
+	}
+	
+	
+}

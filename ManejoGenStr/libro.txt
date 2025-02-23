@@ -1,0 +1,4 @@
+Una frassse con essspaciosss, mayússsculasss y minússsculasss..., algunosss acentosss, etc.
+sssupón que un archivo contiene páginasss
+Con estosss ejerciciosss practicarásss la manipulación de objetosss de tipo ssstring.
+sssiempre tiene al menosss una palabra y que cada palabra essstá ssseparada

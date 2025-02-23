@@ -1,0 +1,32 @@
+
+/*Tania Ariadna Dominguez Palma
+ * 13/sep/2021
+ * Clase donde se depositan muchos metodos estaticos
+ */
+public class Calculadora {
+	
+	public String ordenaCreciente(int numero1, int numero2) {
+		StringBuilder ord = new StringBuilder();
+		if (numero1 < numero2) {
+			ord.append(numero1 + "-" + numero2);
+		}
+		else {
+			ord.append(numero2 + "-" + numero1);
+		}
+		return ord.toString();
+	}
+	
+	public boolean esImpar(int numero) {
+		boolean r;
+		int resd;
+		resd = numero % 2;
+		
+		if (resd != 0) {
+			r = true;
+		}
+		else {
+			r = false;
+		}
+		return r;
+	}
+}

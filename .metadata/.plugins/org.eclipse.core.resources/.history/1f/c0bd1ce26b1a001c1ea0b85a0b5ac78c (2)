@@ -1,0 +1,13 @@
+/*Tania Ariadna Dominguez Palma
+ * 13/sep/2021
+ * Prueba la clase calculadora
+ */
+public class NuevaMetodosEst {
+
+	public static void main(String[] args) {
+		
+		System.out.println(Calculadora.calculaMaximoComunDivisor(120, 60));
+
+	}
+
+}
